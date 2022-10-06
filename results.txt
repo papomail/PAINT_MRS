@@ -1,82 +1,82 @@
 Signal     Conc (mM)       %SD   SD (mM)
 ----------------------------------------
--CrCH2         0.000       inf    0.7800
-Ala           0.8298     586.5     4.867
-Asp            11.17     93.29     10.42
-Cr             5.282     36.12     1.908
-GABA           0.000       inf     1.576
-GPC            1.738     89.66     1.559
-Glc            2.682     124.8     3.349
-Gln            2.452     203.6     4.992
-Glu            3.011     158.9     4.786
-Gua            1.238     255.3     3.160
-Ins            7.812     56.44     4.409
-Lac           0.8407     770.8     6.480
-Lip09          1.130     1078.     12.18
-Lip13a         0.000       inf     34.83
-Lip13b         0.000       inf     9.050
-Lip20          7.548     99.87     7.538
-MM09           1.807     791.1     14.30
-MM12           0.000       inf     9.310
-MM14           3.059     1145.     35.02
-MM17           1.420     884.5     12.56
-MM20           7.526     163.8     12.33
-NAA            3.363     133.1     4.477
-NAAG           1.675     308.5     5.169
-PCh            0.000       inf     1.698
-Scyllo         0.000       inf    0.3278
-Tau            0.000       inf     3.227
-TNAA           5.038     63.81     3.215
-TCho           1.738     25.61    0.4452
-Glx            5.463     128.1     7.001
-TLM09          2.938     138.6     4.071
-TLM13          3.059     197.2     6.033
-TLM20          15.07     66.97     10.10
+-CrCH2         0.000       inf    0.5560
+Ala           0.3830     352.3     1.349
+Asp            3.199     118.0     3.776
+Cr             5.138     19.97     1.026
+GABA           0.000       inf    0.7182
+GPC            1.567     43.87    0.6873
+Glc            1.228     116.4     1.430
+Gln            0.000       inf     1.240
+Glu            2.080     131.0     2.725
+Gua            0.000       inf    0.6013
+Ins            4.429     45.50     2.015
+Lac           0.2819     582.1     1.641
+Lip09          0.000       inf     13.28
+Lip13a         2.414 2.494e+04     601.9
+Lip13b         0.000       inf     10.91
+Lip20          0.000       inf     3.064
+MM09           4.195     614.2     25.76
+MM12           1.474     3190.     47.02
+MM14           2.946 1.877e+04     553.1
+MM17           1.156     3044.     35.18
+MM20           11.90     80.82     9.615
+NAA            3.516     55.68     1.958
+NAAG           2.607     147.0     3.833
+PCh            0.000       inf    0.6342
+Scyllo         0.000       inf    0.1610
+Tau           0.2932     815.9     2.392
+TNAA           6.123     40.92     2.506
+TCho           1.567     18.44    0.2889
+Glx            2.080     129.4     2.691
+TLM09          4.195     133.8     5.614
+TLM13          6.834     422.3     28.86
+TLM20          11.90     76.42     9.091
 
 Fit quality
 -----------
-Metab FWHM (PPM) : 0.05731
-Metab FWHM (Hz)  : 7.324
-SNR residual     : 5.541
-SNR max          : 6.354
-Q                : 1.147
+Metab FWHM (PPM) : 0.06113
+Metab FWHM (Hz)  : 7.813
+SNR residual     : 4.843
+SNR max          : 6.001
+Q                : 1.239
 
 Fitting parameters
 ------------------
-Initial beta : 32.11
-Final beta   : 134.7
+Initial beta : 23.15
+Final beta   : 32.54
 Max iters    : 75
 Start point  : 20
 End point    : 512
-Ref (ppm)    : 4.660
+Ref (ppm)    : 4.640
 
 Concentration scaling
 ---------------------
 Water scaling    : true
-Water amp        : 0.01144
+Water amp        : 0.006853
 Water conc       : 3.588e+04
 Water att        : 0.7000
-Water FWHM (Hz)  : 10.71
-Water FWHM (PPM) : 0.08377
-Water freq (Hz)  : -0.4883
+Water FWHM (Hz)  : 9.114
+Water FWHM (PPM) : 0.07131
+Water freq (Hz)  : -9.277
 
 Data parameters
 ---------------
 Fs (Hz) : 2000.
 Ft (Hz) : 1.278e+08
 N       : 1024
-TE (s)  : 0.03616
+TE (s)  : 0.04000
 Format  : philips
 
 Optimisation details
 --------------------
-l2 norm of error at initial p  : 11.15
-l2 norm of error at final p    : 9.418
-l2 norm of J.'*e at final p    : 0.05528
-l2 norm of D*p at final p      : 1.960e-09
-number of iterations           : 16.00
+l2 norm of error at initial p  : 11.82
+l2 norm of error at final p    : 10.20
+l2 norm of J.'*e at final p    : 89.15
+l2 norm of D*p at final p      : 7.915e-11
+number of iterations           : 12.00
 number of function evaluations : 2.000
-number of Jacobian evaluations : 43.00
+number of Jacobian evaluations : 184.0
 stopped by small D*p
 
 TARQUIN version 4.3.10
